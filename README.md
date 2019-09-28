@@ -5,7 +5,8 @@ and the images of the charts presented in this project.
 
 ## About the dataset
 
-The dataset is downloaded from UCI Machine Learning Repository.The link to the data is ![https://archive.ics.uci.edu/ml/datasets/auto+mpg](https://archive.ics.uci.edu/ml/datasets/auto+mpg)
+The dataset is downloaded from UCI Machine Learning Repository.The link to the data is
+![https://archive.ics.uci.edu/ml/datasets/auto+mpg](https://archive.ics.uci.edu/ml/datasets/auto+mpg)
 
 ### Content
 
@@ -47,3 +48,35 @@ Before applying a machine learning algorithm on the data to solve the problem,an
 * There is a strong negative correlation between the displacement,horsepower,weight,and cylinders.This implies that,as any one of those variables increases,the mpg decreases.
 * The displacement,horsepower,weight,and cylinders have a strong positive correlations between themselves and this voilates the non-multicollinearity assumption of Linear regression.Multicollinearity hinders the performance and accuracy of our regression model.To avoid this, we have to get rid of some of these variables by doing feature selection.
 * The other variables.ie.acceleration,model and origin are not correlated with each other.
+
+
+## Training a regression model for the prediction.
+
+After making a feature selection,the variables I used in the prediction are the acceleration,model,origin,and horsepower.The final regression model that appeared to have the highest accuracy score is the GradientBoostingRegressor model with the following scores:
+
+  Train score: 0.9040700029438588
+
+  Test score: 0.8379811577934175
+
+  Overall model accuracy: 0.8379811577934175
+
+  Mean Squared Error: 8.888595699098659
+  
+I therefore made predictions using the predictor varibles to see how well the model predicts and visualized the actual mpg values recorded and the mpg values predicted by the model to see how close our predictions are to the actual values.
+
+
+![predicted mpg](https://github.com/prince381/car_mpg_predict/blob/master/CarsMPG_predicted.png)
+
+
+We can see from the above scatter plot that our model made a good predictions as the values of the actual mpg and the predicted mpg are very close to each other.We can confidently say that we have succeeded in training a model that predicts the Mileage Per Gallon (mpg) of a car given the acceleration,model,origin and the horsepower of a car.
+
+
+By: Prince Owusu
+
+Year 3 Statistics student at the Kwame Nkrumah University of Science and Technology.
+
+email: ![powusu381@gmail.com](powusu381@gmail.com)
+
+twitter: ![@iam_kwekhu](https://twitter.com/iam_kwekhu)
+
+date: Saturday 28th September,2019
