@@ -47,7 +47,7 @@ Before applying a machine learning algorithm on the data to solve the problem,an
 * We can see that there is a relationship between the mpg variable and the other variables and this satisfies the first assumption of Linear regression.
 * There is a strong negative correlation between the displacement,horsepower,weight,and cylinders.This implies that,as any one of those variables increases,the mpg decreases.
 * The displacement,horsepower,weight,and cylinders have a strong positive correlations between themselves and this voilates the non-multicollinearity assumption of Linear regression.Multicollinearity hinders the performance and accuracy of our regression model.To avoid this, we have to get rid of some of these variables by doing feature selection.
-* The other variables.ie.acceleration,model and origin are not correlated with each other.
+* The other variables.ie.acceleration,model and origin are not highly correlated with each other.
 
 
 ## Training a regression model for the prediction.
