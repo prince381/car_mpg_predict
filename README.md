@@ -6,7 +6,7 @@ and the images of the charts presented in this project.
 ## About the dataset
 
 The dataset is downloaded from UCI Machine Learning Repository.The link to the data is
-![https://archive.ics.uci.edu/ml/datasets/auto+mpg](https://archive.ics.uci.edu/ml/datasets/auto+mpg)
+[https://archive.ics.uci.edu/ml/datasets/auto+mpg](https://archive.ics.uci.edu/ml/datasets/auto+mpg)
 
 ### Content
 
@@ -75,8 +75,8 @@ By: Prince Owusu
 
 Year 3 Statistics student at the Kwame Nkrumah University of Science and Technology.
 
-email: ![powusu381@gmail.com](powusu381@gmail.com)
+email: [powusu381@gmail.com](powusu381@gmail.com)
 
-twitter: ![@iam_kwekhu](https://twitter.com/iam_kwekhu)
+twitter: [@iam_kwekhu](https://twitter.com/iam_kwekhu)
 
 date: Saturday 28th September,2019
